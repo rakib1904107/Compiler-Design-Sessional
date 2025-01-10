@@ -25,13 +25,14 @@ This project implements a **Lexical Analyzer** that separates text based on spec
 ## Example
 
 ### Input (`test/input.md`):
+   ```markdown
+   int x = 10; // This is a variable
+   if (x > 5) {
+     printf("Hello, World!");
+   }
+```
+### Output
 ```markdown
-int x = 10; // This is a variable
-if (x > 5) {
-  printf("Hello, World!");
-}
-
-### Output:
 int
 x
 =
@@ -54,3 +55,5 @@ printf
 "Hello, World!"
 )
 }
+
+
