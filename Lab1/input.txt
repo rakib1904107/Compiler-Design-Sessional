@@ -1,0 +1,8 @@
+int main()
+{
+     int alice,bob,result;
+     alice=10;
+     bob=20;
+     result=(alice+bob)
+     return 0;
+}
